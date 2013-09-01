@@ -1,0 +1,25 @@
+{
+	"name":        "core-cfg",
+	"description": "minimalistic configuration templating",
+	"version":     "0.0.1",
+	"author":      "Sebastian Wiedenroth <sebastian.wiedenroth@skylime.net>",
+	"url":         "https://github.com/wiedi/core-cfg",
+	"bin": {
+		"cfg":   "./bin/cfg.js",
+		"facts": "./bin/facts.js"
+	},
+	"main": "./lib/main.js",
+	"dependencies": {
+		"commander":  "2.0.x",
+		"async":      "0.2.x",
+		"handlebars": "1.0.x",
+		"findit2":    "0.2.x",
+		"mkdirp":     "0.3.x"
+	},
+	"licenses": [
+		{
+			"name": "BSD",
+			"url": "http://opensource.org/licenses/BSD-3-Clause"
+		}
+	]
+}
